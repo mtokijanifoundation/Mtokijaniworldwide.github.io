@@ -1,0 +1,23 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Donate</title>
+<link rel="stylesheet" href="images/style.css"></head><body>
+<header class="header"><img src="images/logo_mtokijani.png" alt="logo"><h1>Donate</h1></header>
+<nav><a href="index.html">Home</a> <a href="about.html">About</a> <a href="gallery.html">Gallery</a> <a href="contact.html">Contact</a></nav>
+<section class="section" style="text-align:center">
+  <img src="images/mpesa_logo.png" alt="M-Pesa" style="max-width:220px;margin:10px auto;display:block">
+  <h3>Donate via M-Pesa</h3>
+  <p><strong>Account Name:</strong> Omary Yusufu Mwalimu<br><strong>Phone Number:</strong> +255 746 181 719</p>
+  <p>Support Mtokijani Worldwide — Every contribution sustains nature and communities.</p>
+  <button class="donate-btn" onclick="openDonate()">Donate Now via M-Pesa</button>
+</section>
+<div id="donateModal" style="display:none;position:fixed;inset:0;align-items:center;justify-content:center">
+  <div style="position:absolute;inset:0;background:rgba(184,233,134,0.12)"></div>
+  <div style="background:#fff;color:#1A5E2B;padding:20px;border-radius:10px;max-width:420px;margin:auto;position:relative;z-index:2">
+    <h3>M-Pesa Donation Steps</h3>
+    <p>1. Open M-Pesa menu (*150*00#)<br>2. Choose "Send Money"<br>3. Enter <strong>+255 746 181 719</strong><br>4. Enter amount and confirm</p>
+    <button onclick="closeDonate()" style="background:#1A5E2B;color:#fff;padding:10px;border-radius:8px;border:none">Close</button>
+  </div>
+</div>
+<div id="thanks" style="display:none;position:fixed;top:20px;left:50%;transform:translateX(-50%);background:#B8E986;color:#0b4a2a;padding:10px 22px;border-radius:8px;z-index:999">Thank you for supporting Mtokijani Worldwide!</div>
+<audio id="chime" src="chime.mp3" preload="auto"></audio>
+<script src="script.js"></script>
+</body></html>

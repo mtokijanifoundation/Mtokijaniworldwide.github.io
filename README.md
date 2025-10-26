@@ -1,1 +1,1 @@
-# Mtokijaniworldwide.github.io
+Upload the contents of this folder to your GitHub Pages site root.
